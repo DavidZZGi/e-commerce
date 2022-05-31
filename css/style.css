@@ -6,26 +6,36 @@
 
 }
 h1{
-    font-size: 50px;
-     line-height: 64px;
-     color: rgb(22, 20, 20);
+    font-size: 40px;
+     line-height: 54px;
+     color:#222
 }
 h2{
-    font-size: 45px;
-    line-height: 54px;
+    font-size: 35px;
+    line-height: 30px;
+    color:#222
+   
 }
 h3{
-    font-size: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    color:#222
+    
+   
    
 }
 h4{
+  
+    line-height: 30px;
     font-size: 20px;
+    color:#222
     
 }
 
 h6{
     font-weight: 600;
     font-size: 12px;
+    color:#222
 }
 p{
     font-size: 16px;
@@ -48,6 +58,10 @@ body{
     padding: 20px 80px;
     background: rgba(238, 238, 255, 0.815);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .navbar{
     display: flex;
@@ -80,4 +94,44 @@ body{
     height: 2px;
     left: 20px;
 
+}
+.negro{
+    background: #1a1a1a;
+}
+#hero{
+  
+     width: 100%;
+    height: 90vh;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+#hero h4{
+    padding: 15px;
+}
+#hero h1{
+    color: #088178;
+}
+#hero .buton{
+    color: #088178;
+    padding: 15px 60px 15px 65px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+    border: 0;
+   background-color: transparent;
+
+
+
+}
+#hero1{
+background-color: transparent;
+  margin: auto;
+  float: right;
+  position: relative;
+  display: inline-flex;
+ 
 }
